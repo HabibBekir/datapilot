@@ -1,0 +1,20 @@
+# Python / uv
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv
+
+# Secrets & local settings
+.env
+
+# DataPilot runtime data (databases, charts, reports)
+data/
+
+# LangGraph Studio local server
+.langgraph_api/
+
+# macOS
+.DS_Store
