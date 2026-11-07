@@ -7,7 +7,9 @@ authors = [
     { name = "HabibBekir", email = "bekirhabib1@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "langgraph>=1.2.20",
+]
 
 [project.scripts]
 datapilot = "datapilot:main"
